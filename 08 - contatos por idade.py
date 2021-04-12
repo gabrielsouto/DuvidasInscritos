@@ -30,7 +30,7 @@ for nome in sorted(contatos):
 
 if len(contatos_maiores) > 0:
     print("-" * 43)
-    print("Contatos com idade maior ao igual a 18 anos")
+    print("Contatos com idade maior ou igual a 18 anos")
     print("-" * 43)
     for nome in contatos_maiores:
         print(f"Nome: {nome} Idade: {contatos_maiores[nome]['idade']} Telefone: {contatos_maiores[nome]['telefone']}")
